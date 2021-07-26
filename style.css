@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*{margin: 0;padding: 0; box-sizing: border-box; }
+html, body{
+    overflow-x: hidden;
+    font-family: 'Baloo 2', cursive;
+    color:#171616b8;
+}
+
+.main{
+    background-color: #b5a4a31c;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 20px 0;   
+}
+.imagescreen{
+    position: relative;
+}
+.iconback{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.iconnext{
+    position: absolute;
+    top: 50%;
+    right:2%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.imagescreen img{
+    height:400px;
+    width:400px;
+}
+.heading1 h1{
+    font-family: 'Yeseva One', cursive;
+    color: black;
+}
+.rate h2{
+    color: black;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.leftsidecontain .imgcontainer .imgs.active{
+    border:2px solid rgb(159, 177, 159);
+}
+
+.imgs img{
+    height: 74px;
+    width: 74px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.details{
+    width: 31%;
+    margin: 25px 0 0 43px
+}
+.heading2 h5{
+    width: 169px;
+    margin: 12px 0;
+}
+.para1{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+}
+.star{
+    color: #15b563a1;
+    margin: 9px 0 0 0;
+    font-size: 12px;
+}
+.para2{
+    font-weight: bold;
+    font-weight: bold;
+}
+.rating{
+    color: #10e7d1f5;
+    font-weight: bold;
+}
+.para3{
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.rate{
+    margin: 25px 0 0 0;
+}
+.clock{
+    margin-top:11px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.buttoncontain{
+    display: flex;
+    margin-top: 6px;
+}
+.btn button{
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    width: 140px;
+    cursor: pointer;
+}
+.btn1 button{
+    padding: 10px 0px;
+    color: black;
+    width: 140px;
+    cursor: pointer;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.paymentdetails{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 200px;
+}
+.card h5{
+    cursor: pointer;
+}
+.card p{
+    font-size: 12px;
+    padding: 15px 18px;
+    font-weight: bold;
+}
+@media (max-width:1023px) {
+    .container{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 0 20px 0;   
+    }
+    .leftsidecontain{
+        max-width: 100%;
+    }
+    .heading2 h5{
+        width: 100%;
+        margin: 12px 0;
+    }
+    .paymentdetails{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-top: 20px;
+    }
+    .details{
+        width: 100%;
+        margin: 32px 0 0 43px
+        text
+    }
+    .main{
+        background-color: #b5a4a31c;
+        height: 100%;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:768px){
+    .details{
+        max-width: 100%;
+        text-align: center;
+        margin: 20px 4px;
+    }
+    .buttoncontain{
+        justify-content: center;
+    }
+    .leftsidecontain{
+        max-width: 100%;
+    }
+    .imagescreen img {
+        height: 400px;
+        width: 100vw;
+    }
+    .imgs img {
+        height: 80%;
+        width: 80%;
+        margin-top: 6px;
+        cursor: pointer;
+    }
+    .container1{
+        text-align: center;
+    }
+
+}
+@media (max-width:539px){
+.heading1 h1 {
+    font-size: 14px;
+}
+.details{
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 2px;
+}
+.imagescreen img {
+    height: 200px;
+    width: 100vw;
+}
+}
+@media (max-width:280px){
+    .buttoncontain{
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center; 
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .imagescreen img {
+        height: 200px;
+        width: 100vw;
+    }
+    .details{
+        max-width: 100%;
+        text-align: center;
+        margin: 10px 2px;
+    }
+}
+
+
+
+
